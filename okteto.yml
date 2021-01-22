@@ -1,0 +1,13 @@
+name: fastapi-blockchain
+image: python:3.8
+sync:
+  -.:code
+command: bash
+volumes:
+- /root/.cache/pip
+remote: 2222
+sync:
+- ./code:/usr/src/app
+forward:
+- 8080:8080
+- 5000:5000

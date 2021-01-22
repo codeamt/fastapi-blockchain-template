@@ -1,0 +1,7 @@
+fastapi[all]~=0.63.0
+httpx~=0.16.1
+gunicorn
+uvicorn
+pif
+pydantic~=1.7.3
+python-dotenv
