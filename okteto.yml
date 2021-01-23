@@ -1,7 +1,5 @@
 name: fastapi-blockchain
 image: python:3.8
-sync:
-  -.:code
 command: bash
 volumes:
 - /root/.cache/pip
